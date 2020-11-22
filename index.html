@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Thechnical Docuentation Page for FCC</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<nav id="navbar">
+  <header id="nav-header">
+    <h1>HTML: HyperText Markup Language</h1>
+  </header>
+  <input type="checkbox" id="mobileMenu">
+ <label for="mobileMenu" class="humburger"><i class="fa fa-bars"></i></label>
+  <ul id="nav-ul">
+    <li class="nav-li"><a href="#What_is_HTML?" class="nav-link">
+        <h3>What is HTML?</h3>
+      </a></li>
+    <li class="nav-li"><a href="#Tutorials" class="nav-link">
+        <h3>Tutorials</h3>
+      </a></li>
+    <li class="nav-li"><a href="#Advanced_topics" class="nav-link">
+        <h3>Advanced topics</h3>
+      </a></li>
+    <li class="nav-li"><a href="#References" class="nav-link">
+        <h3>References</h3>
+      </a></li>
+    <li class="nav-li"><a href="#Related_topics" class="nav-link">
+        <h3>Related topics</h3>
+      </a></li>
+    <li class="nav-li"><a href="#HTML_documentation" class="nav-link">
+        <h3>HTML documentation</h3>
+      </a></li>
+  </ul>
+  </nav>
+<main id="main-doc">
+  <form method="GET" "http://www.google.com/search">
+    <input type="text" id="search" placeholder="Google it!" name="q">
+    <button type="submit" value="Google Search"><i class="fa fa-search"></i></button>
+    </form>
+  <section class="main-section" id="What_is_HTML?">
+    <header>
+      <h2>What is HTML?</h2>
+    </header>
+    <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+    <p>HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as <code>head</code>, <code>title</code>, <code>body</code>, <code>header</code>, <code>footer</code>, <code>article</code>, <code>section</code>, <code>p</code>, <code>div</code>, <code>span</code>, <code>img</code>, <code>aside</code>, <code>audio</code>, <code>canvas</code>, <code>datalist</code>, <code>details</code>, <code>embed</code>, <code>nav</code>, <code>output</code>, <code>progress</code>, <code>video</code>, <code>ul</code>, <code>ol</code>, <code>li</code> and many others.</p>
+    <p>An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by <code>&lt;</code> and <code>&gt;</code>. The name of an element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the <code>title</code> tag can be written as <code>Title</code>, <code>TITLE</code>, or in any other way.</p>
+  </section>
+  <section class="main-section" id="Tutorials">
+    <header>
+      <h2>Tutorials</h2>
+    </header>
+    <p>Our HTML Learning Area features multiple modules that teach HTML from the ground up — no previous knowledge required.</p>
+    <ul id="tut-ul">
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">Introduction to HTML</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding">Multimedia and embedding</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables">HTML tables</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms">HTML forms</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto">Use HTML to solve common problems</a></li>
+    </ul>
+  </section>
+  <section class="main-section" id="Advanced_topics">
+    <header>
+      <h2>Advanced topics</h2>
+    </header>
+    <p>About <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image">CORS enabled image</a>. The <strong>crossorigin</strong> attribute, in combination with an appropriate CORS header, allows images defined by the <code>img</code> element to be loaded from foreign origins and used in a <code>canvas</code> element as if they were being loaded from the current origin.</p>
+    <p>About <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_settings_attributes">CORS settings attributes</a>. Some HTML elements that provide support for CORS, such as <code>img</code> or <code>video</code>, have a <strong>crossorigin</strong> attribute (<strong>crossorigin</strong> property), which lets you configure the CORS requests for the element's fetched data.</p>
+    <p>About <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content">Preloading content with rel="preload"</a>. The <strong>preload</strong> value of the <code>link</code> element's rel attribute allows you to write declarative fetch requests in your HTML <code>head</code>, specifying resources that your pages will need very soon after loading, which you therefore want to start preloading early in the lifecycle of a page load, before the browser's main rendering machinery kicks in. This ensures that they are made available earlier and are less likely to block the page's first render, leading to performance improvements. This article provides a basic guide to how <strong>preload</strong> works.</p>
+  </section>
+  <section class="main-section" id="References">
+    <header>
+      <h2>References</h2>
+    </header>
+    <ul id="ref-ul">
+      <li>HTML reference.
+        <p>HTML consists of <strong>elements</strong>, each of which may be modified by some number of <strong>attributes</strong>. HTML documents are connected to each other with links.</p>
+      </li>
+      <li>HTML element reference.
+        <p>Browse a list of all HTML elements.</p>
+      </li>
+      <li>HTML attribute reference.
+        <p>Elements in HTML have <strong>attributes</strong>. These are additional values that configure the elements or adjust their behavior in various ways.</p>
+      </li>
+      <li>Global attributes.
+        <p>Global attributes may be specified on all HTML elements, <i>even those not specified in the standard</i>. This means that any non-standard elements must still permit these attributes, even though those elements make the document HTML5-noncompliant.</p>
+      </li>
+      <li>Inline elements and block-level elements.
+        <p>HTML elements are usually "inline" or "block-level" elements. An inline element occupies only the space bounded by the tags that define it. A block-level element occupies the entire space of its parent element (container), thereby creating a "block."</p>
+      </li>
+      <li>Link types.
+        <p>In HTML, various link types can be used to establish and define the relationship between two documents. Link elements that types can be set on include <code>a</code>, <code>area</code> and <code>link</code>.</p>
+      </li>
+      <li>Guide to media types and formats on the web.
+        <p>The <code>audio</code> and <code>video</code> elements allow you to play audio and video media natively within your content without the need for external software support.</p>
+      </li>
+      <li>HTML content categories.
+        <p>HTML is comprised of several kinds of content, each of which is allowed to be used in certain contexts and is disallowed in others. Similarly, each has a set of other content categories they can contain and elements that can or can't be used in them. This is a guide to these categories.</p>
+      </li>
+      <li>Quirks mode and standards mode.
+        <p>Historical information on quirks mode and standards mode.</p>
+      </li>
+    </ul>
+  </section>
+  <section class="main-section" id="Related_topics">
+    <header>
+      <h2>Related topics</h2>
+    </header>
+    <p>The article about <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color">applying color to HTML elements using CSS</a>. This article covers most of the ways you use CSS to add color to HTML content, listing what parts of HTML documents can be colored and what CSS properties to use when doing so. Includes examples, links to palette-building tools, and more.</p>
+  </section>
+  <section class="main-section" id="HTML_documentation">
+    <header>
+      <h2>HTML documentation</h2>
+    </header>
+    <p>This page tracks <a href="https://developer.mozilla.org/en-US/docs/MDN/Doc_status/HTML">ongoing documentation work in the MDN HTML section</a>. Feel free to contribute!</p>
+  </section>
+</main>
+<footer>
+  <p>All texts and information is taken from the <a href="https://developer.mozilla.org"><strong> MDN web docs</strong></a> website for informational and educational purposes only.</p>
+  <p>All rights belong to <a href="https://developer.mozilla.org"><strong> MDN web docs</strong></a>.</p>
+  <p>Made by <a href="https://github.com/dieplumpe" id="tribute-link" target="_blank"><u>dieplumpe</u></a></p>
+</footer>
+<!-- partial -->
+  
+</body>
+</html>
