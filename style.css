@@ -9,7 +9,7 @@ html {
 body {
   min-width: 300px;
   max-width: 3000px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 15px;
   color: #2a3439;
   top: 0;
@@ -17,11 +17,11 @@ body {
 }
 h1 {
   font-size: 40px;
-  font-family: "Special Elite", cursive;
+  font-family: 'Special Elite', cursive;
 }
 h2 {
   font-size: 30px;
-  font-family: "Special Elite", cursive;
+  font-family: 'Special Elite', cursive;
 }
 h3 {
   font-size: 25px;
@@ -85,7 +85,7 @@ form {
   border: none;
 }
 ::placeholder {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 16px;
   text-align: center;
 }
@@ -97,7 +97,7 @@ button {
   box-shadow: 1px 1px 3px hsl(0, 100%, 21%, 0.5),
     2px 2px 6px hsl(0, 100%, 21%, 0.5);
   border: none;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
