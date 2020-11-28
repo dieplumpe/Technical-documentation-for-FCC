@@ -1,14 +1,14 @@
-html {
-   scroll-behavior: smooth;
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url('../Technical-documentation-for-FCC/SpecialElite-Regular.ttf');
 }
-
 @font-face {
     font-family: "Special Elite";
     src: url('../Technical-documentation-for-FCC/OpenSansCondensed-Light.ttf');
 }
-@font-face {
-    font-family: "Open Sans Condensed";
-    src: url('../Technical-documentation-for-FCC/SpecialElite-Regular.ttf');
+
+html {
+   scroll-behavior: smooth;
 }
 
 /**GENRAL**/
