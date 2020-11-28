@@ -4,15 +4,18 @@ html {
 
 @font-face {
     font-family: "Special Elite";
+    src: url('../Technical-documentation-for-FCC/OpenSansCondensed-Light.ttf');
+}
+@font-face {
+    font-family: "Open Sans Condensed";
     src: url('SpecialElite-Regular.ttf');
 }
-@import url(//fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap);
 
 /**GENRAL**/
 body {
   min-width: 300px;
   max-width: 3000px;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 15px;
   color: #2a3439;
   top: 0;
