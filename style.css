@@ -2,10 +2,6 @@
     font-family: "Open Sans Condensed";
     src: url('../Technical-documentation-for-FCC/SpecialElite-Regular.ttf');
 }
-@font-face {
-    font-family: "Special Elite";
-    src: url('../Technical-documentation-for-FCC/OpenSansCondensed-Light.ttf');
-}
 
 html {
    scroll-behavior: smooth;
