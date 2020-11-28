@@ -2,7 +2,10 @@ html {
    scroll-behavior: smooth;
 }
 
-@import url(//fonts.googleapis.com/css2?family=Special+Elite&display=swap);
+@font-face {
+    font-family: "Special Elite";
+    src: url('SpecialElite-Regular.ttf');
+}
 @import url(//fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap);
 
 /**GENRAL**/
